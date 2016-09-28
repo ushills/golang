@@ -15,7 +15,6 @@ func main() {
 	Sum := 0
 	for x, y := 0, 1; x <= 4000000; x, y = y, x+y {
 		if x%2 == 0 {
-			fmt.Println(x, "x is even, adding to sum")
 			Sum += x
 		}
 	}
